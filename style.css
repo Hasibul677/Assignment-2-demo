@@ -19,9 +19,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 240px;
-
-    
+    padding: 0 240px;  
 }
 .logo img{
     width: 41px ;
@@ -98,7 +96,6 @@ hr{
     border: 1px solid #D1D1D1;
     margin-left: 30px;
     margin-right: 33px;
-
 }
  /*--------------------------
     End style of Top-players part 
@@ -145,7 +142,6 @@ hr{
      display: grid;
      grid-template-columns: repeat(3,1fr);
      align-items: center;
-   
  }
  .course-detail{
      margin-top: 13px;
@@ -180,9 +176,6 @@ span{
     End style of course part 
  ---------------------------*/
 
-
-
-
  /*--------------------------
     Media query for mobile
  ---------------------------*/
@@ -207,7 +200,6 @@ span{
          flex-direction: column;
      }
  }
-
   /*--------------------------
     Media query for Ipad
  ---------------------------*/
@@ -219,7 +211,6 @@ span{
     .navi{
         width: 100%;
         padding: 0;
-
     }
     .container{
         width: 100%;
