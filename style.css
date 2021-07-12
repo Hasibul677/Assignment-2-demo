@@ -180,10 +180,8 @@ span{
  /*--------------------------
     Media query for mobile
  ---------------------------*/
- @media only screen and (max-width:600px) {
-     header{
-         width: 100%;
-     }
+ @media only screen and (max-width:688px) {
+
      .container{
          width: 100%;
      }
@@ -199,10 +197,7 @@ span{
   /*--------------------------
     Media query for Ipad
  ---------------------------*/
- @media only screen and (min-width:600px) and (max-width:768px) {
-    header{
-        width: 100%;
-    }
+ @media only screen and (min-width:688px) and (max-width:992px) {
     .container{
         width: 100%;
     }
