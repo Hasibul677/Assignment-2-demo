@@ -1,21 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0;
     background-color: #9F9F9F;
+    margin: 0;
 }
 /*--------------------------
     style of header part 
  ---------------------------*/
 header{
-    height: 94px;
-    background: #562EFF;
-    padding: 0 285px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #562EFF; 
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 285px;
+    
 }
 .logo img{
     width: 41px ;
@@ -182,6 +185,15 @@ span{
  ---------------------------*/
  @media only screen and (max-width:688px) {
 
+    header{
+        width: 100%;
+        padding: 0;
+    }
+    .navi{
+        width: 100%;
+        padding: 0;
+    }
+
      .container{
          width: 100%;
      }
@@ -198,6 +210,14 @@ span{
     Media query for Ipad
  ---------------------------*/
  @media only screen and (min-width:688px) and (max-width:992px) {
+    header{
+        width: 100%;
+        padding:0;
+    }
+    .navi{
+        width: 100%;
+        padding: 0;
+    }
     .container{
         width: 100%;
     }
