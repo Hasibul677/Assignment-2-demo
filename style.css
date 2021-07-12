@@ -129,6 +129,9 @@ hr{
  /*--------------------------
     End style of Blogs part 
  ---------------------------*/
+ /*--------------------------
+   style of Course part 
+ ---------------------------*/
  .courses{
      margin-top: 21px;
  }
@@ -166,4 +169,47 @@ hr{
 }
 span{
     margin-left: 15px;
+}
+/*--------------------------
+    End style of course part 
+ ---------------------------*/
+
+
+
+
+ /*--------------------------
+    Media query for mobile
+ ---------------------------*/
+ @media only screen and (max-width:600px) {
+     header{
+         width: 100%;
+     }
+     .container{
+         width: 100%;
+     }
+
+     .players, .blogs, .course-info{
+         grid-template-columns: repeat(1, 1fr);  
+     }
+     .player{
+         flex-direction: column;
+     }
+ }
+
+  /*--------------------------
+    Media query for Ipad
+ ---------------------------*/
+ @media only screen and (min-width:600px) and (max-width:768px) {
+    header{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .players,  .course-info{
+        grid-template-columns: repeat(2, 1fr);  
+    }
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);  
+    }
 }
